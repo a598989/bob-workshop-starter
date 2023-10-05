@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Typography, Box, Slider as MuiSlider } from "@mui/material";
 
-function Slider() {
+function MySlider() { 
   const [sliderValue, setSliderValue] = useState(0);
   const handleChange = (event, newValue) => {
     setSliderValue(newValue);
@@ -20,9 +20,8 @@ function Slider() {
       <Typography>
         Slider Value: {sliderValue}
       </Typography>
-      <MuiSlider disabled defaultValue={30} aria-label="Disabled slider" />
     </Box>
   );
 }
 
-export default Slider;
+export default MySlider; 
