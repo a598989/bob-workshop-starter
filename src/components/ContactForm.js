@@ -74,7 +74,7 @@ function ContactForm() {
           rows={4}
           value={formData.navn}
           onChange={(e) =>
-            setFormData({ ...formData, message: e.target.value })
+            setFormData({ ...formData, navn: e.target.value })
           }
           required
           type="text"
