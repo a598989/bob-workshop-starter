@@ -36,11 +36,11 @@ function Description() {
           Vil du spille et terningspill?
         </Typography>
         <Button variant="contained" color="primary" onClick={rollDice}>
-          Roll the Dice
+          Rull terning
         </Button>
         {diceResult !== null && (
           <Typography variant="h6" mt={2}>
-            You rolled a {diceResult}
+           Du fikk en {diceResult}!
           </Typography>
         )}
       </Box>
