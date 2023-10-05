@@ -69,7 +69,6 @@ function ContactForm() {
           label="Navnet ditt"
           variant="outlined"
           fullWidth
-          multiline
           rows={4}
           value={formData.message}
           onChange={(e) =>
