@@ -65,6 +65,19 @@ function ContactForm() {
       </Typography>
 
       <Stack component="form" onSubmit={handleSubmit} spacing={2}>
+      <TextField
+          label="Navnet ditt"
+          variant="outlined"
+          fullWidth
+          multiline
+          rows={4}
+          value={formData.message}
+          onChange={(e) =>
+            setFormData({ ...formData, message: e.target.value })
+          }
+          required
+          type="text"
+        />
         <TextField
           label="Din e-post"
           variant="outlined"
