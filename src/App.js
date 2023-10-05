@@ -9,7 +9,6 @@ export default function App() {
     <Stack maxWidth="sm" direction="column" spacing={2} margin="auto" p={2}>
       <Profile />
       <Description />
-      <Description />
       <ContactForm />
     </Stack>
   );
