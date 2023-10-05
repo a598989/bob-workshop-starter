@@ -7,7 +7,7 @@ function Profile() {
       alignItems="center"
       textAlign="center"
       py={5}
-      bgcolor="#f5f5f5"
+      bgcolor="#3fc4d9"
       borderRadius={3}
       boxShadow={3}
       spacing={2}
