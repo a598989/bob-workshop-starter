@@ -31,7 +31,10 @@ function Description() {
       </Box>
 
       {/* Dice roll button and result */}
-      <Box py={3} mt={4} textAlign="center">
+      <Box py={5} bgcolor="#e8eaf6" borderRadius={3} boxShadow={3} mt={4} px={3} textAlign="center">
+      <Typography variant="h6" gutterBottom color="#3f51b5">
+          Vil du spille et terningspill?
+        </Typography>
         <Button variant="contained" color="primary" onClick={rollDice}>
           Roll the Dice
         </Button>
