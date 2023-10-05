@@ -71,7 +71,7 @@ function ContactForm() {
           variant="outlined"
           fullWidth
           rows={4}
-          value={formData.message}
+          value={formData.navn}
           onChange={(e) =>
             setFormData({ ...formData, message: e.target.value })
           }
